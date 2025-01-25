@@ -40,7 +40,9 @@ ingredient_properties = {
     "beef": {"vegan": False, "vegetarian": False, "gluten-free": True},
     "lamb": {"vegan": False, "vegetarian": False, "gluten-free": True},
     "pork": {"vegan": False, "vegetarian": False, "gluten-free": True},
-    "fish": {"vegan": False, "vegetarian": False, "gluten-free": True},
+    "salmon": {"vegan": False, "vegetarian": False, "gluten-free": True},
+    "tuna": {"vegan": False, "vegetarian": False, "gluten-free": True},
+    "mackerel": {"vegan": False, "vegetarian": False, "gluten-free": True},
     "egg": {"vegan": False, "vegetarian": True, "gluten-free": True},
     "milk": {"vegan": False, "vegetarian": True, "gluten-free": True},
     "cheese": {"vegan": False, "vegetarian": True, "gluten-free": True},
@@ -75,7 +77,8 @@ def generate_recipe(flavour_profile, dietary_restrictions):
         "lentil", "chickpea", "black bean", "broccoli", "cauliflower", "potato",
         "onion", "leek", "celery", "spinach", "kale", "corn", "pea", "asparagus",
         "green bean", "courgette", "bell pepper", "red lentil", "yellow split pea",
-        "cannellini bean", "butter bean", "parsnip", "turnip", "rutabaga", "watercress"
+        "cannellini bean", "butter bean", "parsnip", "turnip", "rutabaga", "watercress",
+        "ham", "chicken", "beef", "lamb", "pork", "salmon", "tuna", "mackerel"
     ]
     cooking_methods = [
         "roasted", "sautéed", "grilled", "fried", "baked", "steamed", "simmered",
