@@ -1,5 +1,5 @@
 import streamlit as st
-import random
+import random as random
 
 # Set up dictionaries for flavour profiles and dietary restrictions
 
